@@ -187,82 +187,6 @@
                 }
             }
         },
-        "Entity_[1163754259827]": {
-            "Id": "Entity_[1163754259827]",
-            "Name": "Camera",
-            "Components": {
-                "Component_[11895140916889160460]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 11895140916889160460
-                },
-                "Component_[16880285896855930892]": {
-                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
-                    "Id": 16880285896855930892,
-                    "Controller": {
-                        "Configuration": {
-                            "Field of View": 55.0,
-                            "EditorEntityId": 8929576024571800510
-                        }
-                    }
-                },
-                "Component_[17187464423780271193]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 17187464423780271193
-                },
-                "Component_[17495696818315413311]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 17495696818315413311
-                },
-                "Component_[18086214374043522055]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 18086214374043522055,
-                    "Parent Entity": "Entity_[1176639161715]",
-                    "Transform Data": {
-                        "Translate": [
-                            -2.3000001907348633,
-                            -3.9368600845336914,
-                            1.0
-                        ],
-                        "Rotate": [
-                            -2.050307512283325,
-                            1.9552897214889526,
-                            -43.623355865478516
-                        ]
-                    }
-                },
-                "Component_[18387556550380114975]": {
-                    "$type": "SelectionComponent",
-                    "Id": 18387556550380114975
-                },
-                "Component_[2654521436129313160]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 2654521436129313160
-                },
-                "Component_[5265045084611556958]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 5265045084611556958
-                },
-                "Component_[7169798125182238623]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 7169798125182238623
-                },
-                "Component_[7255796294953281766]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 7255796294953281766,
-                    "m_template": {
-                        "$type": "FlyCameraInputComponent"
-                    }
-                },
-                "Component_[8866210352157164042]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 8866210352157164042
-                },
-                "Component_[9129253381063760879]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 9129253381063760879
-                }
-            }
-        },
         "Entity_[1168049227123]": {
             "Id": "Entity_[1168049227123]",
             "Name": "Grid",
@@ -461,7 +385,7 @@
                             "SortIndex": 3
                         },
                         {
-                            "EntityId": "Entity_[1163754259827]",
+                            "EntityId": "",
                             "SortIndex": 4
                         },
                         {
@@ -557,6 +481,484 @@
                 "Component_[931091830724002070]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 931091830724002070
+                }
+            }
+        },
+        "Entity_[280844705657337]": {
+            "Id": "Entity_[280844705657337]",
+            "Name": "Entity1",
+            "Components": {
+                "Component_[13594575984734076079]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13594575984734076079
+                },
+                "Component_[14793972458810684877]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14793972458810684877
+                },
+                "Component_[15960511242733730772]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15960511242733730772
+                },
+                "Component_[18281889846814976247]": {
+                    "$type": "SelectionComponent",
+                    "Id": 18281889846814976247
+                },
+                "Component_[4734977897464129372]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4734977897464129372,
+                    "Parent Entity": "Entity_[500557388181]"
+                },
+                "Component_[6039458941074291440]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 6039458941074291440,
+                    "m_name": "RotateCamera_Remastered",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{235CAE52-F1A5-5D30-8E50-9BFE4975B461}"
+                            },
+                            "assetHint": "assets/scriptcanvas/rotatecamera_remastered.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{235CAE52-F1A5-5D30-8E50-9BFE4975B461}"
+                            },
+                            "assetHint": "assets/scriptcanvas/rotatecamera_remastered.scriptcanvas"
+                        },
+                        "variables": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 3.0
+                                },
+                                "VariableId": {
+                                    "m_id": "{CA4446D1-A503-4569-823C-0C1F3259CBFA}"
+                                },
+                                "VariableName": "CameraRotationSpeed",
+                                "InitialValueSource": 1
+                            }
+                        ],
+                        "overrides": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 0.1
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{CA4446D1-A503-4569-823C-0C1F3259CBFA}"
+                                },
+                                "VariableName": "CameraRotationSpeed",
+                                "InitialValueSource": 1
+                            }
+                        ]
+                    }
+                },
+                "Component_[7539225260055836959]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7539225260055836959
+                },
+                "Component_[7832911288702787042]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7832911288702787042
+                },
+                "Component_[9523066919969969575]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9523066919969969575
+                },
+                "Component_[9682615608369486332]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9682615608369486332
+                },
+                "Component_[9862464458433470378]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9862464458433470378
+                }
+            }
+        },
+        "Entity_[422275592463949]": {
+            "Id": "Entity_[422275592463949]",
+            "Name": "Character",
+            "Components": {
+                "Component_[13757688730993075915]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13757688730993075915
+                },
+                "Component_[14250972436458729671]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14250972436458729671
+                },
+                "Component_[15438673750371565383]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15438673750371565383,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -13.757593154907227,
+                            4.474801063537598,
+                            0.44881248474121094
+                        ]
+                    }
+                },
+                "Component_[159563550745036816]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 159563550745036816
+                },
+                "Component_[2274955834203218846]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2274955834203218846
+                },
+                "Component_[3559576711163687968]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3559576711163687968
+                },
+                "Component_[3674360613937200036]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3674360613937200036
+                },
+                "Component_[4214188211514726407]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4214188211514726407
+                },
+                "Component_[4900072135242001796]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4900072135242001796
+                },
+                "Component_[7061020728445866187]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7061020728445866187
+                }
+            }
+        },
+        "Entity_[472723621648789]": {
+            "Id": "Entity_[472723621648789]",
+            "Name": "Camera",
+            "Components": {
+                "Component_[10291027942933153576]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10291027942933153576
+                },
+                "Component_[11745735667682314594]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11745735667682314594
+                },
+                "Component_[15097808801204801107]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15097808801204801107
+                },
+                "Component_[4185759217269832842]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4185759217269832842
+                },
+                "Component_[448555072453990580]": {
+                    "$type": "SelectionComponent",
+                    "Id": 448555072453990580
+                },
+                "Component_[5358203051767030000]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5358203051767030000
+                },
+                "Component_[5748495143897331823]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5748495143897331823
+                },
+                "Component_[6915970498404588771]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6915970498404588771
+                },
+                "Component_[7415032783429655742]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7415032783429655742,
+                    "Parent Entity": "Entity_[280844705657337]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            -10.0,
+                            10.839008331298828
+                        ],
+                        "Rotate": [
+                            -30.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[8508240698200999925]": {
+                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
+                    "Id": 8508240698200999925,
+                    "Controller": {
+                        "Configuration": {
+                            "EditorEntityId": 10593647248934697099
+                        }
+                    }
+                },
+                "Component_[8559901865520920450]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8559901865520920450
+                }
+            }
+        },
+        "Entity_[500557388181]": {
+            "Id": "Entity_[500557388181]",
+            "Name": "charactermedium",
+            "Components": {
+                "Component_[11559378157198872349]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 11559378157198872349,
+                    "m_name": "PlayerController_remastered",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{6068F94D-DEC2-5B12-B53A-7BC90143F97A}"
+                            },
+                            "assetHint": "assets/scriptcanvas/playercontroller_remastered.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{6068F94D-DEC2-5B12-B53A-7BC90143F97A}"
+                            },
+                            "assetHint": "assets/scriptcanvas/playercontroller_remastered.scriptcanvas"
+                        },
+                        "variables": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 3.0
+                                },
+                                "VariableId": {
+                                    "m_id": "{10997C27-F1F6-4448-BCD5-E5C15409DBC4}"
+                                },
+                                "VariableName": "HorizontalCameraMoveSpeed",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 1.0
+                                },
+                                "VariableId": {
+                                    "m_id": "{183BEA43-F0EE-4113-8D60-9DF8D8A980F9}"
+                                },
+                                "VariableName": "CharacterMoveSpeed",
+                                "InitialValueSource": 1
+                            }
+                        ],
+                        "entityId": [
+                            [
+                                {
+                                    "m_id": "{ACB9663E-C90A-4466-8AF1-79E381B2A44F}"
+                                },
+                                ""
+                            ]
+                        ],
+                        "overrides": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 0.3
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{10997C27-F1F6-4448-BCD5-E5C15409DBC4}"
+                                },
+                                "VariableName": "HorizontalCameraMoveSpeed",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 5.0
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{183BEA43-F0EE-4113-8D60-9DF8D8A980F9}"
+                                },
+                                "VariableName": "CharacterMoveSpeed",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 1
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "EntityId",
+                                    "value": "Entity_[472723621648789]"
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{ACB9663E-C90A-4466-8AF1-79E381B2A44F}"
+                                },
+                                "VariableName": "CameraEntity",
+                                "InitialValueSource": 1
+                            }
+                        ],
+                        "overridesUnused": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 0.5
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{EE9F21C4-A401-4533-B0B0-29B4614BBDF7}"
+                                },
+                                "VariableName": "SneakingSpeed",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 1.0
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{364482E8-A69D-486C-BFBB-74C34E8CB101}"
+                                },
+                                "VariableName": "WalkingSpeed",
+                                "InitialValueSource": 1
+                            }
+                        ]
+                    }
+                },
+                "Component_[12252126040938923554]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12252126040938923554
+                },
+                "Component_[12738706485239197329]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12738706485239197329,
+                    "Parent Entity": "Entity_[422275592463949]"
+                },
+                "Component_[14304372523844082863]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14304372523844082863
+                },
+                "Component_[14346807844270949462]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14346807844270949462
+                },
+                "Component_[14879235432814271933]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14879235432814271933
+                },
+                "Component_[15367660789513375419]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15367660789513375419
+                },
+                "Component_[2504670002011314636]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2504670002011314636
+                },
+                "Component_[5425013658031028019]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5425013658031028019
+                },
+                "Component_[5824222978682459320]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5824222978682459320
+                },
+                "Component_[6265977307244806932]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 6265977307244806932,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{232700DD-FFC9-5040-924A-35A60495B7D7}",
+                            "subId": 1036152337
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "assets/models/character_rigged.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentTarget": ""
+                },
+                "Component_[7334108272138557531]": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 7334108272138557531,
+                    "Configuration": {
+                        "entityId": "",
+                        "Material": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfig": {
+                        "Capsule": {
+                            "Height": 4.0,
+                            "Radius": 0.6000000238418579
+                        }
+                    }
+                },
+                "Component_[7939230212986935957]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7939230212986935957
+                },
+                "Component_[9753351691429357680]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 9753351691429357680,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{3A11905E-9FDD-5072-AD36-011CF5E012CA}"
+                            },
+                            "assetHint": "assets/inputbindings/playercontrols.inputbindings"
+                        }
+                    }
                 }
             }
         }

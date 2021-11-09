@@ -59,7 +59,7 @@ set(ENABLED_GEMS
     SliceFavorites
     StartingPointCamera
     StartingPointMovement
-    Terrain
+    
     TestAssetBuilder
     TickBusOrderViewer
     Twitch

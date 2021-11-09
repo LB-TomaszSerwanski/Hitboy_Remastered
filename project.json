@@ -1,0 +1,16 @@
+{
+    "project_name": "Hitboy_Remastered",
+    "origin": "The primary repo for Hitboy_Remastered goes here: i.e. http://www.mydomain.com",
+    "license": "What license Hitboy_Remastered uses goes here: i.e. https://opensource.org/licenses/MIT",
+    "display_name": "Hitboy_Remastered",
+    "summary": "A short description of Hitboy_Remastered.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Hitboy_Remastered"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de-install",
+    "external_subdirectories": []
+}

@@ -262,6 +262,27 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 10789351944715265527
                 },
+                "Component_[11726665694834140069]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 11726665694834140069,
+                    "m_name": "EntityTriggered",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{5A18771B-3C78-58C9-8D10-9BA7B1522273}"
+                            }
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{5A18771B-3C78-58C9-8D10-9BA7B1522273}"
+                            },
+                            "assetHint": "assets/scriptcanvas/entitytriggered.scriptcanvas"
+                        }
+                    }
+                },
                 "Component_[12037033284781049225]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 12037033284781049225
@@ -282,11 +303,36 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 18082433625958885247
                 },
+                "Component_[510633306275215818]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 510633306275215818,
+                    "ColliderConfiguration": {
+                        "CollisionLayer": {
+                            "Index": 1
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0,
+                        "Sphere": {
+                            "Radius": 1.0
+                        }
+                    }
+                },
                 "Component_[6472623349872972660]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 6472623349872972660,
                     "Parent Entity": "Entity_[1176639161715]",
                     "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            -20.291324615478516,
+                            0.0
+                        ],
                         "Rotate": [
                             0.0,
                             0.10000000149011612,
@@ -484,9 +530,139 @@
                 }
             }
         },
+        "Entity_[1362189267382]": {
+            "Id": "Entity_[1362189267382]",
+            "Name": "Actor",
+            "Components": {
+                "Component_[10636864699729508751]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10636864699729508751
+                },
+                "Component_[12886192840302803133]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12886192840302803133
+                },
+                "Component_[13112281351744659899]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13112281351744659899
+                },
+                "Component_[15809865423615857533]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15809865423615857533
+                },
+                "Component_[3015830296406167975]": {
+                    "$type": "SelectionComponent",
+                    "Id": 3015830296406167975
+                },
+                "Component_[3390897631431018112]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3390897631431018112
+                },
+                "Component_[3555278508616596829]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3555278508616596829,
+                    "Parent Entity": "Entity_[500557388181]"
+                },
+                "Component_[3604239605546863359]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3604239605546863359
+                },
+                "Component_[5180638868455002651]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5180638868455002651
+                },
+                "Component_[8604625877590888579]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8604625877590888579
+                },
+                "Component_[9957567530350664433]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 9957567530350664433,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{232700DD-FFC9-5040-924A-35A60495B7D7}",
+                            "subId": 1036152337
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "assets/models/character_rigged.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentTarget": ""
+                }
+            }
+        },
+        "Entity_[1581232599478]": {
+            "Id": "Entity_[1581232599478]",
+            "Name": "NoiseRadius",
+            "Components": {
+                "Component_[11928360337432345457]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11928360337432345457
+                },
+                "Component_[13917809602478849011]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13917809602478849011
+                },
+                "Component_[16644017151591224786]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16644017151591224786
+                },
+                "Component_[17712004761747881119]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17712004761747881119
+                },
+                "Component_[3023754640472121273]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3023754640472121273
+                },
+                "Component_[3063196359756651468]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3063196359756651468,
+                    "Parent Entity": "Entity_[500557388181]"
+                },
+                "Component_[3444613073443682396]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3444613073443682396
+                },
+                "Component_[4554930813062049171]": {
+                    "$type": "EditorDiskShapeComponent",
+                    "Id": 4554930813062049171,
+                    "GameView": true,
+                    "ShapeColor": [
+                        0.9192644953727722,
+                        1.0,
+                        0.031113145872950554
+                    ],
+                    "DiskShape": {
+                        "Configuration": {
+                            "DrawColor": [
+                                0.9192644953727722,
+                                1.0,
+                                0.031113145872950554
+                            ],
+                            "Radius": 1.0
+                        }
+                    }
+                },
+                "Component_[5876804505021721298]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5876804505021721298
+                },
+                "Component_[6323115043179814718]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6323115043179814718
+                },
+                "Component_[8964891132047801806]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8964891132047801806
+                }
+            }
+        },
         "Entity_[280844705657337]": {
             "Id": "Entity_[280844705657337]",
-            "Name": "Entity1",
+            "Name": "CameraRotator",
             "Components": {
                 "Component_[13594575984734076079]": {
                     "$type": "EditorEntitySortComponent",
@@ -605,14 +781,7 @@
                 "Component_[15438673750371565383]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 15438673750371565383,
-                    "Parent Entity": "Entity_[1146574390643]",
-                    "Transform Data": {
-                        "Translate": [
-                            -13.757593154907227,
-                            4.474801063537598,
-                            0.44881248474121094
-                        ]
-                    }
+                    "Parent Entity": "Entity_[1146574390643]"
                 },
                 "Component_[159563550745036816]": {
                     "$type": "EditorEntityIconComponent",
@@ -714,7 +883,7 @@
         },
         "Entity_[500557388181]": {
             "Id": "Entity_[500557388181]",
-            "Name": "charactermedium",
+            "Name": "PlayerController",
             "Components": {
                 "Component_[11559378157198872349]": {
                     "$type": "EditorScriptCanvasComponent",
@@ -744,7 +913,7 @@
                                     },
                                     "isNullPointer": false,
                                     "$type": "double",
-                                    "value": 3.0
+                                    "value": 0.3
                                 },
                                 "VariableId": {
                                     "m_id": "{10997C27-F1F6-4448-BCD5-E5C15409DBC4}"
@@ -759,12 +928,42 @@
                                     },
                                     "isNullPointer": false,
                                     "$type": "double",
-                                    "value": 1.0
+                                    "value": 5.0
                                 },
                                 "VariableId": {
                                     "m_id": "{183BEA43-F0EE-4113-8D60-9DF8D8A980F9}"
                                 },
                                 "VariableName": "CharacterMoveSpeed",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 5.0
+                                },
+                                "VariableId": {
+                                    "m_id": "{364482E8-A69D-486C-BFBB-74C34E8CB101}"
+                                },
+                                "VariableName": "WalkingSpeed",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 2.0
+                                },
+                                "VariableId": {
+                                    "m_id": "{EE9F21C4-A401-4533-B0B0-29B4614BBDF7}"
+                                },
+                                "VariableName": "SneakingSpeed",
                                 "InitialValueSource": 1
                             }
                         ],
@@ -772,6 +971,12 @@
                             [
                                 {
                                     "m_id": "{ACB9663E-C90A-4466-8AF1-79E381B2A44F}"
+                                },
+                                ""
+                            ],
+                            [
+                                {
+                                    "m_id": "{D7209330-211F-4B18-ACF9-C6C44AC8C8CE}"
                                 },
                                 ""
                             ]
@@ -816,6 +1021,42 @@
                             {
                                 "Datum": {
                                     "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 5.0
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{364482E8-A69D-486C-BFBB-74C34E8CB101}"
+                                },
+                                "VariableName": "WalkingSpeed",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 2.5
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{EE9F21C4-A401-4533-B0B0-29B4614BBDF7}"
+                                },
+                                "VariableName": "SneakingSpeed",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
                                         "m_type": 1
                                     },
                                     "isNullPointer": false,
@@ -830,43 +1071,23 @@
                                 },
                                 "VariableName": "CameraEntity",
                                 "InitialValueSource": 1
-                            }
-                        ],
-                        "overridesUnused": [
-                            {
-                                "Datum": {
-                                    "scriptCanvasType": {
-                                        "m_type": 3
-                                    },
-                                    "isNullPointer": false,
-                                    "$type": "double",
-                                    "value": 0.5
-                                },
-                                "InputControlVisibility": {
-                                    "Value": 850104567
-                                },
-                                "VariableId": {
-                                    "m_id": "{EE9F21C4-A401-4533-B0B0-29B4614BBDF7}"
-                                },
-                                "VariableName": "SneakingSpeed",
-                                "InitialValueSource": 1
                             },
                             {
                                 "Datum": {
                                     "scriptCanvasType": {
-                                        "m_type": 3
+                                        "m_type": 1
                                     },
                                     "isNullPointer": false,
-                                    "$type": "double",
-                                    "value": 1.0
+                                    "$type": "EntityId",
+                                    "value": "Entity_[1581232599478]"
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
                                 },
                                 "VariableId": {
-                                    "m_id": "{364482E8-A69D-486C-BFBB-74C34E8CB101}"
+                                    "m_id": "{D7209330-211F-4B18-ACF9-C6C44AC8C8CE}"
                                 },
-                                "VariableName": "WalkingSpeed",
+                                "VariableName": "NoiseRadiusEntity",
                                 "InitialValueSource": 1
                             }
                         ]
@@ -908,22 +1129,6 @@
                 "Component_[5824222978682459320]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 5824222978682459320
-                },
-                "Component_[6265977307244806932]": {
-                    "$type": "EditorActorComponent",
-                    "Id": 6265977307244806932,
-                    "ActorAsset": {
-                        "assetId": {
-                            "guid": "{232700DD-FFC9-5040-924A-35A60495B7D7}",
-                            "subId": 1036152337
-                        },
-                        "loadBehavior": "QueueLoad",
-                        "assetHint": "assets/models/character_rigged.actor"
-                    },
-                    "MaterialPerLOD": [
-                        {}
-                    ],
-                    "AttachmentTarget": ""
                 },
                 "Component_[7334108272138557531]": {
                     "$type": "EditorCharacterControllerComponent",

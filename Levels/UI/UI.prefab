@@ -382,6 +382,19 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 16490288875951155182
                 },
+                "Component_[16490661930770162128]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 16490661930770162128,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{55DC1ED3-5E07-50FC-A5A2-41A2FF61A2D7}"
+                            },
+                            "assetHint": "assets/ui/test.inputbindings"
+                        }
+                    }
+                },
                 "Component_[16619699399262796659]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 16619699399262796659

@@ -5,7 +5,7 @@
     "materialTypeVersion": 4,
     "properties": {
         "baseColor": {
-            "textureMap": "Assets/Materials/bullet_hole.png"
+            "textureMap": "Assets/UI/9-Slice/Ancient/brown.png"
         }
     }
 }

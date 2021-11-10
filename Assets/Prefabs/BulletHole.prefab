@@ -1,0 +1,130 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "BulletHole",
+        "Components": {
+            "Component_[10277670724023402615]": {
+                "$type": "EditorLockComponent",
+                "Id": 10277670724023402615
+            },
+            "Component_[11071429771425242803]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11071429771425242803
+            },
+            "Component_[13863393035283617456]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13863393035283617456
+            },
+            "Component_[15798263666849130516]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15798263666849130516,
+                "ChildEntityOrderEntryArray": [
+                    {
+                        "EntityId": "Entity_[522826082472122]"
+                    }
+                ]
+            },
+            "Component_[16643969030091171098]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16643969030091171098
+            },
+            "Component_[16830764124922379090]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16830764124922379090
+            },
+            "Component_[2063356777660100516]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2063356777660100516,
+                "Parent Entity": ""
+            },
+            "Component_[2192962809282695218]": {
+                "$type": "SelectionComponent",
+                "Id": 2192962809282695218
+            },
+            "Component_[3487880808605909093]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3487880808605909093
+            },
+            "Component_[8135669981909042270]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8135669981909042270
+            },
+            "Component_[8725154606709064052]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8725154606709064052
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[522826082472122]": {
+            "Id": "Entity_[522826082472122]",
+            "Name": "BulletHole",
+            "Components": {
+                "Component_[12934532959362323957]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12934532959362323957
+                },
+                "Component_[13311458727074024340]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13311458727074024340
+                },
+                "Component_[13484681544367017072]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13484681544367017072
+                },
+                "Component_[14777424555717201532]": {
+                    "$type": "AZ::Render::EditorDecalComponent",
+                    "Id": 14777424555717201532,
+                    "Controller": {
+                        "Configuration": {
+                            "Material": {
+                                "assetId": {
+                                    "guid": "{3A2F5552-CEF5-5577-94A4-5FF9917879B0}"
+                                },
+                                "assetHint": "assets/materials/decal.azmaterial"
+                            }
+                        }
+                    }
+                },
+                "Component_[17359556974719144643]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17359556974719144643,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8590440112060272663
+                        },
+                        {
+                            "ComponentId": 14777424555717201532,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[2981310720297053503]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2981310720297053503
+                },
+                "Component_[3474009449364682020]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3474009449364682020
+                },
+                "Component_[4795561490389416093]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4795561490389416093
+                },
+                "Component_[5340486365752934722]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5340486365752934722
+                },
+                "Component_[7464262713841641715]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7464262713841641715
+                },
+                "Component_[8590440112060272663]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8590440112060272663,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

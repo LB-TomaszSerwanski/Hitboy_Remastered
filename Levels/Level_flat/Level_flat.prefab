@@ -7416,6 +7416,30 @@
         }
     },
     "Instances": {
+        "Instance_[127690210780866]": {
+            "Source": "Assets/Prefabs/Character.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12900461166300393497]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12900461166300393497]/Transform Data/Translate/0",
+                    "value": -11.367135047912598
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12900461166300393497]/Transform Data/Translate/1",
+                    "value": -41.19078826904297
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
         "Instance_[543742466175]": {
             "Source": "Assets/Prefabs/Enemy.prefab",
             "Patches": [

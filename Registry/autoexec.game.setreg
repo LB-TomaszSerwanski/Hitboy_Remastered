@@ -1,0 +1,9 @@
+{
+    "O3DE": {
+        "Autoexec": {
+            "ConsoleCommands": {
+                "loadlevel": "Levels/Tutorial_lvl/Tutorial_lvl.spawnable"
+            }
+        }
+    }
+}

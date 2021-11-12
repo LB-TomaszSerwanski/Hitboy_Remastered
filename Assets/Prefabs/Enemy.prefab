@@ -219,10 +219,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{FD340C30-755C-5911-92A3-19A3F7A77931}",
+                                    "guid": "{0FC34BD0-49A2-5454-B0D5-E7DFB345148A}",
                                     "subId": 281415304
                                 },
-                                "assetHint": "objects/shaderball/shaderball_default_1m.azmodel"
+                                "assetHint": "assets/models/shaderball_default_1m.azmodel"
                             }
                         }
                     }

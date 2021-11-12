@@ -2,10 +2,5 @@
     "description": "",
     "parentMaterial": "",
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
-    "properties": {
-        "baseColor": {
-            "textureMap": "Assets/UI/9-Slice/Ancient/brown.png"
-        }
-    }
+    "materialTypeVersion": 4
 }

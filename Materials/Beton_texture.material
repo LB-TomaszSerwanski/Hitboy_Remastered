@@ -1,0 +1,30 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Assets/Materials/Concrete031_1K-JPG/Concrete031_1K_Color.jpg"
+        },
+        "normal": {
+            "factor": 0.019999999552965164,
+            "textureMap": "Assets/Materials/Concrete031_1K-JPG/Concrete031_1K_NormalDX.jpg"
+        },
+        "occlusion": {
+            "diffuseFactor": 0.0,
+            "diffuseTextureMap": "Assets/Materials/Concrete031_1K-JPG/Concrete031_1K_AmbientOcclusion.jpg"
+        },
+        "parallax": {
+            "factor": 0.0,
+            "offset": 0.07199999690055847,
+            "textureMap": "Assets/Materials/Concrete031_1K-JPG/Concrete031_1K_Displacement.jpg"
+        },
+        "roughness": {
+            "textureMap": "Assets/Materials/Concrete031_1K-JPG/Concrete031_1K_Roughness.jpg"
+        },
+        "specularF0": {
+            "factor": 0.8500000238418579
+        }
+    }
+}

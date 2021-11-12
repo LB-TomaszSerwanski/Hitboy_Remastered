@@ -1,0 +1,30 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Assets/Materials/Tiles/Tiles105_1K_Color.jpg"
+        },
+        "normal": {
+            "factor": 0.18000000715255737,
+            "textureMap": "Assets/Materials/Tiles/Tiles105_1K_NormalDX.jpg"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Assets/Materials/Tiles/Tiles105_1K_AmbientOcclusion.jpg"
+        },
+        "parallax": {
+            "factor": 0.004999999888241291,
+            "offset": 0.10000000149011612,
+            "textureMap": "Assets/Materials/Tiles/Tiles105_1K_Displacement.jpg"
+        },
+        "roughness": {
+            "textureMap": "Assets/Materials/Tiles/Tiles105_1K_Roughness.jpg"
+        },
+        "uv": {
+            "tileU": 0.20000000298023224,
+            "tileV": 0.20000000298023224
+        }
+    }
+}

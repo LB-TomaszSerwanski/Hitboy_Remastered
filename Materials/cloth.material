@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Assets/Materials/Cloth/Fabric048_1K_Color.jpg"
+        },
+        "general": {
+            "doubleSided": true
+        },
+        "normal": {
+            "textureMap": "Assets/Materials/Cloth/Fabric048_1K_NormalDX.jpg"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Assets/Materials/Cloth/Fabric048_1K_AmbientOcclusion.jpg"
+        },
+        "parallax": {
+            "algorithm": "Basic",
+            "factor": 0.0020000000949949026,
+            "textureMap": "Assets/Materials/Cloth/Fabric048_1K_Displacement.jpg"
+        },
+        "roughness": {
+            "textureMap": "Assets/Materials/Cloth/Fabric048_1K_Roughness.jpg"
+        }
+    }
+}
